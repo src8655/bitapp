@@ -1,0 +1,21 @@
+server:
+       port: 8787
+       servlet:
+                context-path: /bitapp
+
+
+spring:
+       profiles:
+                active: dev
+       devtools:
+                livereload:
+                           enabled: true
+       http:
+            encoding:
+                     charset: UTF-8
+                     enabled: true
+                     forced: true
+                     forced-request: true
+                     forced-response: true
+       aop:
+           auto: true
